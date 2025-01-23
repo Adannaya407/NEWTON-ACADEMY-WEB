@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(231, 231, 17, 0.836);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading{color: rgb(245, 242, 242);
+    
+}
+.sub-title{
+    font-size: 20px;
+}
