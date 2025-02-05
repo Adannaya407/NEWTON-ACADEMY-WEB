@@ -1,15 +1,27 @@
 body{
-    background-color: rgba(231, 231, 17, 0.836);
+    background-color: midnightblue;
     height: 100vh;
-    margin: 0;
-    display: flex;
+     margin: 0;
+     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
+    gap: 0;
+    }
+h1{
+    color: antiquewhite;
+    margin: 0;
 }
-.heading{color: rgb(245, 242, 242);
-    
-}
-.sub-title{
+.subtitle{
     font-size: 20px;
+    color: rgb(136, 193, 247);
+    margin-top: 0;
+}
+#button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(27, 27, 194);
+    background-color: rgb(223, 117, 166);
+    border-radius: 10px;
 }
