@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    height: 200px;
+}
+.flex-item{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid gray;
+    text-align: center;
+    flex-grow: 1;
+}
+.flex-item-3{
+    flex-grow: 2;
+}
